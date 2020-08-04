@@ -1,0 +1,52 @@
+footer {
+  margin-top: 6rem;
+  .main-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 18rem;
+    height: 18rem;
+    background-color: $main-color;
+    opacity: 0.9;
+
+    &:hover {
+      opacity: 1;
+      background-color: #000;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: $light-color;
+      padding: 0.5rem 1.1rem;
+      color: $main-color;
+      font-size: 0.9rem;
+      text-decoration: none;
+      margin-bottom: 1.5rem;
+
+      &:hover {
+        background-color: rgba($color: #d8d8d8, $alpha: 0.9);
+        color: black;
+      }
+
+      i {
+        font-size: 1rem;
+        padding-right: 0.8rem;
+      }
+    }
+
+    .footer-icons {
+      a {
+        text-decoration: none;
+        color: $light-color;
+        font-size: 1.5rem;
+
+        i {
+          &:hover {
+            color: rgba($color: #d8d8d8, $alpha: 0.5);
+          }
+        }
+      }
+    }
+  }
+}
